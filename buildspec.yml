@@ -8,4 +8,4 @@ phases:
       nodejs: 16
   build:
     commands:
-      - echo Running buildspec build command
+      - ./build-and-deploy.sh
