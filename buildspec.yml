@@ -9,4 +9,4 @@ phases:
       - npm install
   build:
     commands:
-      - ./build-and-deploy.sh
+      - eas build -p android --non-interactive
