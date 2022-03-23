@@ -5,8 +5,8 @@ phases:
     runtime-versions:
       nodejs: 14
     commands:
-      - npm install -g yarn
-      - yarn
+      - npm install -g eas-cli
+      - npm i
   build:
     commands:
       - npx eas build -p android --non-interactive
