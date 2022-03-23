@@ -9,4 +9,4 @@ phases:
       - yarn
   build:
     commands:
-      - eas build -p android --non-interactive
+      - npx eas build -p android --non-interactive
