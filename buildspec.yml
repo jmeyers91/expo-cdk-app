@@ -5,6 +5,7 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
+      - npm install -g eas-cli
       - npm install
   build:
     commands:
