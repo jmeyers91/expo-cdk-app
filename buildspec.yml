@@ -9,4 +9,5 @@ phases:
       - npm i
   build:
     commands:
+      - node pre-build.js
       - npx eas build -p android --non-interactive
