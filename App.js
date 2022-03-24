@@ -4,6 +4,8 @@ import Constants from "expo-constants";
 
 const { buildCommitId } = Constants.manifest.extra;
 
+console.log({ Constants });
+
 export default function App() {
   return (
     <View style={styles.container}>
