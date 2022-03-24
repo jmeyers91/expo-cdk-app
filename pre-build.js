@@ -18,4 +18,4 @@ const updatedEasConfig = {
   ),
 };
 
-fs.writeFile("./app.json", JSON.stringify(updatedEasConfig, null, 2));
+fs.writeFileSync("./app.json", JSON.stringify(updatedEasConfig, null, 2));
