@@ -9,5 +9,6 @@ phases:
       - npm i
   build:
     commands:
+      - echo "EXPO_TOKEN = $EXPO_TOKEN"
       - node pre-build.js
       - npx eas build -p android --non-interactive
