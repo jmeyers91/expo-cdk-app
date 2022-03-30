@@ -23,6 +23,6 @@ for (const buildProfile of Object.values(easConfig.build)) {
   buildProfile.env = { ...buildProfile.env, ...injectedEnv };
 }
 
-fs.writeFileSync(easConfigPath, JSON.stringify(updatedEasConfig, null, 2));
+fs.writeFileSync(easConfigPath, JSON.stringify(easConfig, null, 2));
 
 console.log(`Passing env vars to EAS for Expo build`, injectedEnv);
